@@ -1,0 +1,80 @@
+/* Reset e fontes */
+header {
+  font-family: "Roboto", "Times New Roman", Times, serif;
+  font-size: x-large;
+  font-weight: 900;
+  font-size: 900px;
+}
+
+/*Títulos*/
+.title {  
+  font-family:"Pacifico", cursive;
+  font-size: x-large;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+
+body {
+  margin: 20px;
+  background-image: url('fundo_tulipas.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #daf0f1;
+  line-height: 1.6;
+  padding: 50px;
+  text-align: center;
+}
+
+/* Layout */
+header,
+footer {
+  text-align: center;
+  padding: 1rem;  
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+/*Entradas do Diário*/
+article {
+    background-color: #362f9125;
+    border-left: 20px solid #98afce;
+    padding: 1rem;
+    border-radius: 70px;
+    box-shadow: 0 2px 5px rgba(245, 243, 243, 0.05);
+    font-family: "lora", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+article h1 {
+    font-family: "Lobster", cursive;
+}
+
+time {
+  font-size: 1rem;
+  color: #666;
+}
+
+.btn-humor{
+    background: linear-gradient(to right, #5b8df9, #e25757);
+    color: rgb(204, 197, 197);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    border-bottom-style: ridge;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+
+
